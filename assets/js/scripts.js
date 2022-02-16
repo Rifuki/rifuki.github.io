@@ -4,7 +4,7 @@ let count = 0;
 let currentText = '';
 let letter = '';
 
-typing = () => {
+typing = (time) => {
     if(count === texts.length){
         count = 0;
     }
@@ -16,7 +16,7 @@ typing = () => {
         count++;
         index = 0;
     }
-    setTimeout(typing, 150);
+    setTimeout(typing, time);
 }
 
-typing();
+typing(50);
