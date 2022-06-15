@@ -19,4 +19,4 @@ typing = (time) => {
     setTimeout(typing, time);
 }
 
-typing(50);
+typing(10);
